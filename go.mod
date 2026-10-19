@@ -1,6 +1,6 @@
 module github.com/gavinbunney/terraform-provider-kubectl
 
-go 1.18
+go 1.22
 
 require (
 	github.com/cenkalti/backoff/v4 v4.1.1
@@ -22,7 +22,7 @@ require (
 	k8s.io/client-go v0.21.3
 	k8s.io/kube-aggregator v0.21.3
 	k8s.io/kubectl v0.21.3
-	sigs.k8s.io/yaml v1.2.0
+	sigs.k8s.io/yaml v1.6.0
 )
 
 require (
@@ -60,7 +60,7 @@ require (
 	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e // indirect
 	github.com/golang/protobuf v1.4.3 // indirect
 	github.com/google/btree v1.0.0 // indirect
-	github.com/google/go-cmp v0.5.6 // indirect
+	github.com/google/go-cmp v0.5.9 // indirect
 	github.com/google/gofuzz v1.1.0 // indirect
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510 // indirect
 	github.com/google/uuid v1.1.2 // indirect
@@ -115,6 +115,7 @@ require (
 	github.com/xlab/treeprint v0.0.0-20181112141820-a009c3971eca // indirect
 	go.opencensus.io v0.22.4 // indirect
 	go.starlark.net v0.0.0-20200306205701-8dd3e2ee1dd5 // indirect
+	go.yaml.in/yaml/v2 v2.4.2 // indirect
 	golang.org/x/crypto v0.0.0-20210421170649-83a5a9bb288b // indirect
 	golang.org/x/lint v0.0.0-20200302205851-738671d3881b // indirect
 	golang.org/x/mod v0.3.1-0.20200828183125-ce943fd02449 // indirect
